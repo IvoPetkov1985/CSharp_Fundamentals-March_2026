@@ -4,12 +4,12 @@
     {
         static void Main(string[] args)
         {
-            long[] inputArray = Console.ReadLine()
+            int[] inputArray = Console.ReadLine()
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
-                .Select(x => long.Parse(x))
+                .Select(x => int.Parse(x))
                 .ToArray();
 
-            List<long> topInts = new();
+            List<int> topInts = new();
 
             for (int i = 0; i < inputArray.Length; i++)
             {
@@ -20,6 +20,7 @@
                     if (inputArray[i] <= inputArray[j])
                     {
                         isTop = false;
+                        break;
                     }
                 }
 
