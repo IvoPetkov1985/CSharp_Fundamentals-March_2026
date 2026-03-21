@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Ladybugs", "10.Ladybugs\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Ladybugs.v2", "10.Ladybugs.v2\10.Ladybugs.v2.csproj", "{D7615209-BFB2-4382-B7A5-180B45171C1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.KaminoFactory", "09.KaminoFactory\09.KaminoFactory.csproj", "{1A803A8A-2BE2-43AA-8D0D-21BE0341BDB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{D7615209-BFB2-4382-B7A5-180B45171C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7615209-BFB2-4382-B7A5-180B45171C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7615209-BFB2-4382-B7A5-180B45171C1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A803A8A-2BE2-43AA-8D0D-21BE0341BDB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A803A8A-2BE2-43AA-8D0D-21BE0341BDB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A803A8A-2BE2-43AA-8D0D-21BE0341BDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A803A8A-2BE2-43AA-8D0D-21BE0341BDB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
