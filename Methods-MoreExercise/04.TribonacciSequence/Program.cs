@@ -9,7 +9,7 @@
 
             for (int i = 3; i < length; i++)
             {
-                numbers.Add(numbers[i - 1] + numbers[i - 2] + numbers[i - 3]);
+                numbers.Add(numbers.TakeLast(3).Sum());
             }
 
             if (length <= 3)
